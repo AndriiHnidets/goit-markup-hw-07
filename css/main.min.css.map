@@ -2,8 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../saas/main.scss",
-        "../saas/utils/_variables.scss"
+        "../saas/main.scss"
     ],
     "names": [],
     "file": "main.min.css"
