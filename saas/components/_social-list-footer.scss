@@ -1,0 +1,57 @@
+.footer-social-link {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link-twiter {
+    width: 44px;
+    height: 44px;
+    background-color: #2196f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.footer-social-icon-twiter {
+    fill: #ffffff;
+    transition: color 50ms linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link-twiter:hover,
+.footer-social-link-twiter:focus {
+    background-color: #ffffff;
+}
+
+.footer-social-link-twiter:hover .footer-social-icon-twiter,
+.footer-social-link-twiter:focus .footer-social-icon-twiter {
+    fill: #2196f3;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: #2196f3;
+}
+
+.footer-social-icon {
+    fill: #ffffff;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-item+.footer-social-item {
+    margin-left: 10px;
+}

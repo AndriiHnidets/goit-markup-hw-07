@@ -1,0 +1,126 @@
+.hero-list {
+    margin-top: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.hero-list-item {
+    width: 270px;
+}
+
+.hero-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.hero-box-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.hero-box-icon {
+    fill: #212121;
+}
+
+.hero-list-1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.hero-item-1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.hero-text-1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+}
+
+.hero-item-2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+
+.hero-text-2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+}
+
+.hero-item-3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+
+.hero-text-3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+}
+
+.hero-item-4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+
+.hero-text-4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+}

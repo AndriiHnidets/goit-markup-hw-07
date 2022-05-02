@@ -1,0 +1,25 @@
+.modal-button-close {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.modal-button-close:hover .modal-close-icon,
+.modal-button-close:focus .modal-close-icon {
+    fill: #2196f3;
+}
+.modal-close-icon {
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}

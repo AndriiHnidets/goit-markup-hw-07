@@ -1,0 +1,65 @@
+.hero-social-link {
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-social-link-inst {
+    width: 44px;
+    height: 44px;
+    background-color: #2196f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.hero-social-icon-inst {
+    fill: #ffffff;
+}
+
+.hero-social-link-inst:hover,
+.hero-social-link-inst:focus {
+    background-color: #ffffff;
+}
+
+.hero-social-link-inst:hover .hero-social-icon-inst,
+.hero-social-link-inst:focus .hero-social-icon-inst {
+    fill: #2196f3;
+}
+
+.hero-social-link:hover,
+.hero-social-link:focus {
+    background-color: #2196f3;
+}
+
+.hero-social-link:hover .hero-social-icon,
+.hero-social-link:focus .hero-social-icon {
+    fill: #ffffff;
+}
+
+.hero-social-icon {
+    fill: #afb1b8;
+    transition: color 50ms linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-team-social {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    transition: color 50ms linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-social-item+.hero-social-item {
+    margin-left: 10px;
+}

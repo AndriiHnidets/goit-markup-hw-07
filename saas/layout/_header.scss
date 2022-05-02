@@ -1,0 +1,222 @@
+.header-container {
+    background: #ffffff;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border: 1px solid #ececec;
+}
+
+.header-container-2 {
+    display: flex;
+    align-items: center;
+}
+
+.header-item {
+    display: flex;
+    position: relative;
+}
+
+.header-items {
+    transition: color 250ms linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-items:after {
+    content: '';
+    width: 48px;
+    height: 4px;
+    background: #2196f3;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -32px;
+}
+
+
+
+.header-portfolio-list {
+    display: flex;
+    margin-right: 50px;
+    position: relative;
+}
+
+
+
+.header-title-studio {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    margin-right: 50px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-title-studio:hover,
+.header-title-studio:focus {
+    color: #2196f3;
+}
+
+.header-title-index-studio {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196f3;
+}
+
+.header-studio {
+    margin-right: 50px;
+}
+
+.header-title-index-studio:hover,
+.header-title-index-studio:focus {
+    color: #212121;
+}
+
+.header-title-portfolio {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196f3;
+    margin-right: 50px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-title-portfolio:after {
+    content: '';
+    width: 78px;
+    height: 4px;
+    background: #2196f3;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -32px;
+    left: 97px;
+}
+
+.header-title-portfolio:hover,
+.header-title-portfolio:focus {
+    color: #212121;
+}
+
+.header-title-index-portfolio {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.header-portfolio {
+    margin-right: 50px;
+}
+
+.header-title-index-portfolio:hover,
+.header-title-index-portfolio:focus {
+    color: #2196f3;
+}
+
+.header-info {
+    display: flex;
+    margin-left: auto;
+}
+
+.header-title-contacts {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-title-contacts:hover,
+.header-title-contacts:focus {
+    color: #2196f3;
+}
+
+.header-info-adres {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    margin-right: 50px;
+    transition: color 250ms linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-info-tel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition: color 250ms linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*.header-mail-item {
+  margin-right:;
+
+.header-tel-item {
+  margin-right: ;
+}}*/
+.header-mail-icon {
+    fill: #757575;
+    margin-right: 10px;
+    transition: color 250ms linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-tel-icon {
+    width: 16px;
+    height: 16px;
+    fill: #757575;
+    margin-right: 10px;
+    transition: color 250ms linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-info-tel:hover .header-tel-icon,
+.header-info-tel:focus .header-tel-icon {
+    fill: #2196f3;
+}
+
+.header-info-tel:hover,
+.header-info-tel:focus {
+    color: #2196f3;
+}
+
+.header-info-adres:hover .header-mail-icon,
+.header-info-adres:focus .header-mail-icon {
+    fill: #2196f3;
+}
+
+.header-info-adres:hover,
+.header-info-adres:focus {
+    color: #2196f3;
+}
