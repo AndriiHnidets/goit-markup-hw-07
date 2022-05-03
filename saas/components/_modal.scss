@@ -5,11 +5,12 @@
     top: 0;
     background: rgba(0, 0, 0, 0.2);
     transition: opacity 500ms, visibility 500ms;
+    &.is-hidden .modal {
+        transform: scale(0, 5);
+    }
 }
 
-.backdrop.is-hidden .modal {
-    transform: scale(0, 5);
-}
+.backdrop
 
 .modal {
     position: absolute;

@@ -266,6 +266,7 @@ img {
   transform: scale(0, 5);
 }
 
+.backdrop
 .modal {
   position: absolute;
   top: 50%;
