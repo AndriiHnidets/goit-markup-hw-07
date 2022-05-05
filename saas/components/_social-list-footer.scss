@@ -10,6 +10,11 @@
     transition-duration: 250ms;
     transition-timing-function: linear;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: #2196f3;
+    }
 }
 
 .footer-social-link-twiter {
@@ -20,28 +25,24 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+
+    &:hover,
+    &:focus {
+        background-color: #ffffff;
+    }
 }
 
 .footer-social-icon-twiter {
     fill: #ffffff;
     transition: color 50ms linear;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+
+    .footer-social-link-twiter:hover &,
+    .footer-social-link-twiter:focus & {
+        fill: #2196f3;
+    }
 }
 
-.footer-social-link-twiter:hover,
-.footer-social-link-twiter:focus {
-    background-color: #ffffff;
-}
-
-.footer-social-link-twiter:hover .footer-social-icon-twiter,
-.footer-social-link-twiter:focus .footer-social-icon-twiter {
-    fill: #2196f3;
-}
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-    background-color: #2196f3;
-}
 
 .footer-social-icon {
     fill: #ffffff;

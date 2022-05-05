@@ -48,9 +48,10 @@
     transition-duration: 250ms;
     transition-timing-function: linear;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background: #188ce8;
+    }
 }
 
-.hero-main-button:hover,
-.hero-main-button:focus {
-    background: #188ce8;
-}

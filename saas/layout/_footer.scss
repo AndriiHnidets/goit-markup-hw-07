@@ -138,9 +138,9 @@
     transition-duration: 250ms;
     transition-timing-function: linear;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-button:hover,
-.footer-button:focus {
-    background: #188ce8;
+    &:hover,
+    &:focus {
+        background: #188ce8;
+    }
 }

@@ -6,10 +6,10 @@
 
 .hero-list-item {
     width: 270px;
-}
 
-.hero-list-item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .hero-box-link {

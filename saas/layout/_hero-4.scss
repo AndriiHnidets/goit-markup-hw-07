@@ -21,10 +21,6 @@
     display: flex;
 }
 
-.hero-team-block:last-child {
-    margin-right: 0;
-}
-
 .hero-team-block {
     width: 270px;
     background: #ffffff;
@@ -32,6 +28,10 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .hero-team-description {
@@ -202,6 +202,11 @@
     transition-duration: 250ms;
     transition-timing-function: linear;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border-color: #2196f3;
+    }
 }
 
 .clients-icon {
@@ -210,14 +215,9 @@
     transition-duration: 250ms;
     transition-timing-function: linear;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-    fill: #2196f3;
-}
-
-.clients-link:hover,
-.clients-link:focus {
-    border-color: #2196f3;
+    .clients-link:hover &,
+    .clients-link:focus & {
+        fill: #2196f3;
+    }
 }

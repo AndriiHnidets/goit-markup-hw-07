@@ -10,8 +10,6 @@
     }
 }
 
-.backdrop
-
 .modal {
     position: absolute;
     top: 50%;
@@ -60,22 +58,19 @@
     line-height: 14px;
     letter-spacing: 0.01em;
     color: #757575;
-}
 
-.form-input:hover,
-.form-input:focus {
-    border: 1px solid #2196f3;
-}
+        &:hover,
+        &:focus {
+            border: 1px solid #2196f3;
 
-.form-input-2:hover,
-.form-input-2:focus {
-    border: 1px solid #2196f3;
+            &+.input-icon-title {
+                fill: #2196f3;
+            }
+        }
+        &:is(:focus, :valid) {
+            border-color: #2196f3;
+        }
 }
-
-.form-input:focus+.input-icon-title {
-    fill: #2196f3;
-}
-
 .form-input-2 {
     font-style: normal;
     font-weight: normal;
@@ -93,10 +88,14 @@
     outline: none;
     resize: none;
     transition: border-color 500ms;
-}
 
-.form-input-2:is(:focus, :valid) {
-    border-color: #2196f3;
+    &:hover,
+    &:focus {
+        border: 1px solid #2196f3;
+    }
+    &:is(:focus, :valid) {
+        border-color: #2196f3;
+    }
 }
 
 .input-icon-title {
@@ -109,10 +108,6 @@
 .input-wrap {
     position: relative;
     margin-bottom: 10px;
-}
-
-.form-input:is(:focus, :valid) {
-    border-color: #2196f3;
 }
 
 .modal-button {
@@ -136,11 +131,11 @@
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 124px;
     margin-left: 124px;
-}
 
-.modal-button:hover,
-.modal-button:focus {
-    background: #188ce8;
+    &:hover,
+    &:focus {
+        background: #188ce8;
+    }
 }
 
 .modal-textarea {
@@ -195,6 +190,13 @@
 
 .check-input {
     margin-left: 13px;
+
+    &:checked+.contact-form-chekbox-label::before {
+        background-color: #2196F3;
+        border: 2px solid #2196F3;
+        border-radius: 2px;
+        background-image: url(../images/modal/checkbox-checked.svg);
+    }
 }
 
 .contact-form-chekbox-wrapper {
@@ -205,23 +207,16 @@
     font-size: 14px;
     display: flex;
     align-items: center;
-}
 
-.contact-form-chekbox-label::before {
-    display: inline-block;
-    width: 15px;
-    height: 16px;
-    border: 2px solid #212121;
-    content: "";
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 10px;
-    margin-left: 13px;
-}
-
-.check-input:checked+.contact-form-chekbox-label::before {
-    background-color: #2196F3;
-    border: 2px solid #2196F3;
-    border-radius: 2px;
-    background-image: url(../images/modal/checkbox-checked.svg);
+    &::before {
+        display: inline-block;
+        width: 15px;
+        height: 16px;
+        border: 2px solid #212121;
+        content: "";
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-left: 13px;
+    }
 }

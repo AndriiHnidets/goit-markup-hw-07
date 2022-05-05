@@ -10,6 +10,11 @@
     transition-duration: 250ms;
     transition-timing-function: linear;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: #2196f3;
+    }
 }
 
 .hero-social-link-inst {
@@ -20,36 +25,31 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+
+    &:hover,
+    &:focus {
+        background-color: #ffffff;
+    }
 }
 
 .hero-social-icon-inst {
     fill: #ffffff;
-}
 
-.hero-social-link-inst:hover,
-.hero-social-link-inst:focus {
-    background-color: #ffffff;
-}
-
-.hero-social-link-inst:hover .hero-social-icon-inst,
-.hero-social-link-inst:focus .hero-social-icon-inst {
-    fill: #2196f3;
-}
-
-.hero-social-link:hover,
-.hero-social-link:focus {
-    background-color: #2196f3;
-}
-
-.hero-social-link:hover .hero-social-icon,
-.hero-social-link:focus .hero-social-icon {
-    fill: #ffffff;
+    .hero-social-link-inst:hover &,
+    .hero-social-link-inst:focus & {
+        fill: #2196f3;
+    }
 }
 
 .hero-social-icon {
     fill: #afb1b8;
     transition: color 50ms linear;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+
+    .hero-social-link:hover &,
+    .hero-social-link:focus & {
+        fill: #ffffff;
+    }
 }
 
 .hero-team-social {

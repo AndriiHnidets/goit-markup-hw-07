@@ -13,13 +13,15 @@
     top: 8px;
 }
 
-.modal-button-close:hover .modal-close-icon,
-.modal-button-close:focus .modal-close-icon {
-    fill: #2196f3;
-}
+
 .modal-close-icon {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: linear;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+
+    .modal-button-close:hover &,
+    .modal-button-close:focus & {
+        fill: #2196f3;
+    }
 }
