@@ -5,9 +5,10 @@
     top: 0;
     background: rgba(0, 0, 0, 0.2);
     transition: opacity 500ms, visibility 500ms;
-    &.is-hidden .modal {
-        transform: scale(0, 5);
-    }
+}
+
+.backdrop.is-hidden .modal {
+    transform: scale(0, 5);
 }
 
 .modal {
@@ -23,6 +24,12 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     padding: 40px;
+}
+
+
+.modal-button-close:hover .modal-close-icon,
+.modal-button-close:focus .modal-close-icon {
+    fill: #2196f3;
 }
 
 .is-hidden {
@@ -58,19 +65,22 @@
     line-height: 14px;
     letter-spacing: 0.01em;
     color: #757575;
-
-        &:hover,
-        &:focus {
-            border: 1px solid #2196f3;
-
-            &+.input-icon-title {
-                fill: #2196f3;
-            }
-        }
-        &:is(:focus, :valid) {
-            border-color: #2196f3;
-        }
 }
+
+.form-input:hover,
+.form-input:focus {
+    border: 1px solid #2196f3;
+}
+
+.form-input-2:hover,
+.form-input-2:focus {
+    border: 1px solid #2196f3;
+}
+
+.form-input:focus+.input-icon-title {
+    fill: #2196f3;
+}
+
 .form-input-2 {
     font-style: normal;
     font-weight: normal;
@@ -88,20 +98,17 @@
     outline: none;
     resize: none;
     transition: border-color 500ms;
+}
 
-    &:hover,
-    &:focus {
-        border: 1px solid #2196f3;
-    }
-    &:is(:focus, :valid) {
-        border-color: #2196f3;
-    }
+.form-input-2:is(:focus, :valid) {
+    border-color: #2196f3;
 }
 
 .input-icon-title {
     position: absolute;
     left: 15px;
-    top: 50%;
+    top: 60%;
+    /*transform: translateY(-50%);*/
     transition: fill 500ms;
 }
 
@@ -110,17 +117,22 @@
     margin-bottom: 10px;
 }
 
+.form-input:is(:focus, :valid) {
+    border-color: #2196f3;
+}
+
 .modal-button {
+    display: flex;
+    align-items: center;
     width: 200px;
     height: 50px;
     background: #2196f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: #ffffff;
+    font-weight: 700;
     padding-left: 56px;
     padding-right: 55px;
     padding-top: 10px;
@@ -128,14 +140,17 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: linear;
-    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
-    margin-right: 124px;
-    margin-left: 124px;
+    border: 0;
+}
 
-    &:hover,
-    &:focus {
-        background: #188ce8;
-    }
+.modal-button-main {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    background: #188ce8;
 }
 
 .modal-textarea {
@@ -185,38 +200,66 @@
     color: #2196f3;
     text-decoration: underline;
     text-align: justify 1;
-    margin-left: 3px;
 }
 
 .check-input {
     margin-left: 13px;
-
-    &:checked+.contact-form-chekbox-label::before {
-        background-color: #2196F3;
-        border: 2px solid #2196F3;
-        border-radius: 2px;
-        background-image: url(../images/modal/checkbox-checked.svg);
-    }
 }
 
 .contact-form-chekbox-wrapper {
     margin-bottom: 30px;
+    position: relative;
+    left: 13px;
 }
 
 .contact-form-chekbox-label {
     font-size: 14px;
     display: flex;
     align-items: center;
+    color: #757575;
 
-    &::before {
-        display: inline-block;
-        width: 15px;
-        height: 16px;
-        border: 2px solid #212121;
-        content: "";
-        border-radius: 2px;
-        cursor: pointer;
-        margin-right: 10px;
-        margin-left: 13px;
-    }
+}
+
+.contact-form-chekbox-label::before {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    color: #757575;
+    content: "";
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.check-input:hover+.contact-form-chekbox-label::before,
+.check-input:focus+.contact-form-chekbox-labe::before {
+    background-color: #ffffff;
+    border: 2px solid #2196F3;
+    border-radius: 2px;
+    width: 16px;
+    height: 15px;
+}
+
+.check-input:checked+.contact-form-chekbox-label::before {
+    background-color: #2196F3;
+    border: 2px solid #2196F3;
+    border-radius: 2px;
+    background-image: url(../images/modal/checkbox-checked.svg);
+}
+
+.visualy-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
