@@ -21,8 +21,6 @@
     display: flex;
 }
 
-
-
 .hero-team-block {
     width: 270px;
     background: #ffffff;
@@ -48,7 +46,7 @@
     border-radius: 0px;
     width: 270px;
 }
-.hero-team-name1 {
+.hero-team-name {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -61,7 +59,7 @@
     margin-bottom: 10px;
 }
 
-.hero-team-profession1 {
+.hero-team-profession {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -79,29 +77,6 @@
     width: 270px;
 }
 
-.hero-team-name2 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin-bottom: 10px;
-}
-
-.hero-team-profession2 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
-    margin-bottom: 16px;
-}
 
 .hero-team-pcs3 {
     background: url(16166.jpg);
@@ -109,29 +84,6 @@
     width: 270px;
 }
 
-.hero-team-name3 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin-bottom: 10px;
-}
-
-.hero-team-profession3 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
-    margin-bottom: 16px;
-}
 
 .hero-team-pcs4 {
     background: url(2968.jpg);
@@ -139,29 +91,6 @@
     width: 270px;
 }
 
-.hero-team-name4 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin-bottom: 10px;
-}
-
-.hero-team-profession4 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
-    margin-bottom: 16px;
-}
 
 .hero-social-link {
     width: 44px;
