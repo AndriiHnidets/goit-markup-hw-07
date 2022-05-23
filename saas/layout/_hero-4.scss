@@ -16,10 +16,6 @@
     margin-bottom: 50px;
 }
 
-.hero-team-photo {
-    display: flex;
-}
-
 .hero-team-block {
     width: 270px;
     background: #ffffff;
@@ -34,6 +30,8 @@
 
 .hero-team-list {
     display: flex;
+    padding-left: 0px;
+    margin: 0px;
 }
 
 .hero-team-description {
