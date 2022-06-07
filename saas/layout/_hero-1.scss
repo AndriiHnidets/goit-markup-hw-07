@@ -1,4 +1,4 @@
-.hero-main {
+.connection {
     background-color: #2f303a;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(../images/hero-main/hero-main.jpg);
@@ -14,7 +14,7 @@
     background-position: center;
 }
 
-.hero-main-title {
+.connection__title {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -30,7 +30,7 @@
     margin-top: 0;
 }
 
-.hero-main-button {
+.connection__button {
     display: flex;
     border-radius: 4px;
     padding: 10px 32px;

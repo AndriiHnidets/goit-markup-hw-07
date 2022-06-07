@@ -1,23 +1,23 @@
-.header-container {
+.header {
     background: #ffffff;
     /* padding-top: 24px;
   padding-bottom: 25px; */
     border: 1px solid #ececec;
 }
 
-.header-container-2 {
+.menu {
     display: flex;
     align-items: center;
 }
 
-.header-item {
+.menu__item {
     display: flex;
     position: relative;
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.header-items {
+.menu__header-items {
     transition: color 250ms linear;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
     &:after {
@@ -31,7 +31,7 @@
             bottom: -2px;
         }
 }
-.header-logo-blue {
+.logo__blue-part {
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -41,7 +41,7 @@
     color: #2196f3;
 }
 
-.header-logo-black {
+.logo__black-part {
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -51,10 +51,12 @@
     color: #000;
 }
 
-.header-index-logo {
+// .header-index-logo {
+//     margin-right: 93px;
+// }
+.logo__margin {
     margin-right: 93px;
 }
-
 .header-portfolio-list {
     display: flex;
     margin-right: 50px;
@@ -83,7 +85,7 @@
             color: #2196f3;
         }
 }
-.header-title-index-studio {
+.menu__index-studio {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -97,7 +99,7 @@
         }
 }
 
-.header-studio {
+.menu__studio {
     margin-right: 50px;
 }
 
@@ -130,7 +132,7 @@
     }
 }
 
-.header-title-index-portfolio {
+.menu__index-portfolio {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -144,18 +146,18 @@
         }
 }
 
-.header-portfolio {
+.menu__portfolio {
     margin-right: 50px;
 }
 
-.header-info {
+.menu__info {
     display: flex;
     margin-left: auto;
     padding-bottom: 32px;
     padding-top: 32px;
 }
 
-.header-title-contacts {
+.menu__contacts {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -173,7 +175,7 @@
         }
 }
 
-.header-info-adres {
+.menu__info-adres {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -190,7 +192,7 @@
         }
 }
 
-.header-info-tel {
+.menu__info-tel {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -205,26 +207,26 @@
             color: #2196f3;
         }
 }
-.header-mail-icon {
+.menu__mail-icon {
     fill: #757575;
     margin-right: 10px;
     transition: color 250ms linear;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
-    .header-info-adres:hover &,
-    .header-info-adres:focus & {
+    .menu__info-adres:hover &,
+    .menu__info-adres:focus & {
             fill: #2196f3;
         }
 }
 
-.header-tel-icon {
+.menu__tel-icon {
     width: 16px;
     height: 16px;
     fill: #757575;
     margin-right: 10px;
     transition: color 250ms linear;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
-    .header-info-tel:hover &,
-        .header-info-tel:focus & {
+    .menu__info-tel:hover &,
+        .menu__info-tel:focus & {
             fill: #2196f3;
         }
 }

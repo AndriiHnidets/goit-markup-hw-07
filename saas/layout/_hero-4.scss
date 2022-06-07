@@ -1,10 +1,10 @@
-.hero-team {
+.team {
     margin-top: 0;
     background: #f5f4fa;
     padding-bottom: 94px;
     padding-top: 94px;
 }
-.hero-team-item {
+.team__title {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -16,7 +16,7 @@
     margin-bottom: 50px;
 }
 
-.hero-team-block {
+.team__block {
     width: 270px;
     background: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -28,22 +28,22 @@
         }
 }
 
-.hero-team-list {
+.team__list {
     display: flex;
     padding-left: 0px;
     margin: 0px;
 }
 
-.hero-team-description {
+.team__description {
     padding-top: 30px;
 }
 
-.hero-team-pcs1 {
+.team__pcs-igor {
     background: url(4853.jpg);
     border-radius: 0px;
     width: 270px;
 }
-.hero-team-name {
+.team__name {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -56,7 +56,7 @@
     margin-bottom: 10px;
 }
 
-.hero-team-profession {
+.team__profession {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -68,21 +68,21 @@
     margin-bottom: 16px;
 }
 
-.hero-team-pcs2 {
+.team__pcs-olga {
     background: url(5844.jpg);
     border-radius: 0px;
     width: 270px;
 }
 
 
-.hero-team-pcs3 {
+.team__pcs-nick {
     background: url(16166.jpg);
     border-radius: 0px;
     width: 270px;
 }
 
 
-.hero-team-pcs4 {
+.team__pcs-mick {
     background: url(2968.jpg);
     border-radius: 0px;
     width: 270px;
@@ -138,7 +138,7 @@
         }
 }
 
-.hero-team-social {
+.team__social {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
@@ -146,7 +146,7 @@
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-social-item+.hero-social-item {
+.team__social-item+.team__social-item {
     margin-left: 10px;
 }
 

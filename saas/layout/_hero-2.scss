@@ -1,10 +1,10 @@
-.hero-list {
+.principles {
     margin-top: 0;
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.hero-list-item {
+.principles__item {
     width: 270px;
 
     &:not(:last-child) {
@@ -12,7 +12,7 @@
     }
 }
 
-.hero-box-link {
+.principles__link {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -23,18 +23,18 @@
     margin-bottom: 30px;
 }
 
-.hero-box-icon {
+.principles__icon {
     fill: #212121;
 }
 
-.hero-list-1 {
+.principles__list {
     margin: 0 auto;
     display: flex;
     justify-content: center;
     padding-left: 0;
 }
 
-.hero-item-1 {
+.principles__item-title {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -45,7 +45,7 @@
     color: #212121;
 }
 
-.hero-text-1 {
+.principles__item-text {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -56,71 +56,71 @@
     margin-top: 10px;
 }
 
-.hero-item-2 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+// .hero-item-2 {
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: bold;
+//     font-size: 14px;
+//     line-height: 16px;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
 
-    color: #212121;
-}
+//     color: #212121;
+// }
 
-.hero-text-2 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
-    margin-top: 10px;
-}
+// .hero-text-2 {
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 14px;
+//     line-height: 24px;
+//     letter-spacing: 0.03em;
+//     color: #757575;
+//     margin-top: 10px;
+// }
 
-.hero-item-3 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+// .hero-item-3 {
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: bold;
+//     font-size: 14px;
+//     line-height: 16px;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
 
-    color: #212121;
-}
+//     color: #212121;
+// }
 
-.hero-text-3 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
-    margin-top: 10px;
-}
+// .hero-text-3 {
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 14px;
+//     line-height: 24px;
+//     letter-spacing: 0.03em;
+//     color: #757575;
+//     margin-top: 10px;
+// }
 
-.hero-item-4 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+// .hero-item-4 {
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: bold;
+//     font-size: 14px;
+//     line-height: 16px;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
 
-    color: #212121;
-}
+//     color: #212121;
+// }
 
-.hero-text-4 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
-    margin-top: 10px;
-}
+// .hero-text-4 {
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 14px;
+//     line-height: 24px;
+//     letter-spacing: 0.03em;
+//     color: #757575;
+//     margin-top: 10px;
+// }
