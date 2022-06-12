@@ -134,15 +134,16 @@
 
 .menu__index-portfolio {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
-    &:hover,
-    &:focus {
-            color: #2196f3;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #2196f3;
+    
+        &:hover,
+        &:focus {
+            color: #212121;
         }
 }
 
