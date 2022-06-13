@@ -520,12 +520,12 @@ img {
   padding-bottom: 32px;
 }
 
-.menu__header-items {
+.menu__index-items {
   transition: color 250ms linear;
   transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu__header-items:after {
+.menu__index-items:after {
   content: '';
   width: 48px;
   height: 4px;
@@ -644,11 +644,11 @@ img {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #212121;
 }
 
 .menu__index-portfolio:hover, .menu__index-portfolio:focus {
-  color: #212121;
+  color: #2196f3;
 }
 
 .menu__portfolio {
@@ -1770,12 +1770,12 @@ img {
 
 .menu__header-items:after {
   content: '';
-  width: 48px;
+  width: 78px;
   height: 4px;
   background: #2196f3;
   border-radius: 2px;
   position: absolute;
-  left: 0;
+  left: 97px;
   bottom: -2px;
 }
 
@@ -1832,18 +1832,18 @@ img {
   color: #2196f3;
 }
 
-.menu__index-studio {
+.menu__portfolio-studio {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #212121;
 }
 
-.menu__index-studio:hover, .menu__index-studio:focus {
-  color: #212121;
+.menu__portfolio-studio:hover, .menu__portfolio-studio:focus {
+  color: #2196f3;
 }
 
 .menu__studio {
@@ -1880,18 +1880,18 @@ img {
   color: #212121;
 }
 
-.menu__index-portfolio {
+.menu__portfolio-portfolio {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #2196f3;
 }
 
-.menu__index-portfolio:hover, .menu__index-portfolio:focus {
-  color: #2196f3;
+.menu__portfolio-portfolio:hover, .menu__portfolio-portfolio:focus {
+  color: #212121;
 }
 
 .menu__portfolio {

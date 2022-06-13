@@ -17,7 +17,7 @@
     padding-bottom: 32px;
 }
 
-.menu__header-items {
+.menu__index-items {
     transition: color 250ms linear;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
     &:after {
@@ -51,7 +51,7 @@
     color: #000;
 }
 
-// .header-index-logo {
+// . {
 //     margin-right: 93px;
 // }
 .logo__margin {
@@ -139,11 +139,10 @@
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        color: #2196f3;
-    
+        color: #212121;
         &:hover,
         &:focus {
-            color: #212121;
+            color: #2196f3;
         }
 }
 

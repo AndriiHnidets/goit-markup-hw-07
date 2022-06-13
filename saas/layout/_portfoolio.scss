@@ -31,12 +31,12 @@
 
     &:after {
         content: '';
-        width: 48px;
+        width: 78px;
         height: 4px;
         background: #2196f3;
         border-radius: 2px;
         position: absolute;
-        left: 0;
+        left: 97px;
         bottom: -2px;
     }
 }
@@ -98,18 +98,18 @@
     }
 }
 
-.menu__index-studio {
+.menu__portfolio-studio {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196f3;
+    color: #212121;
 
     &:hover,
     &:focus {
-        color: #212121;
+        color: #2196f3;
     }
 }
 
@@ -148,18 +148,18 @@
     }
 }
 
-.menu__index-portfolio {
+.menu__portfolio-portfolio {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: #2196f3;
 
     &:hover,
     &:focus {
-        color: #2196f3;
+        color: #212121;
     }
 }
 
